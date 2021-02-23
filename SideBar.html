@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>SideBar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Ignore those dropdown menus, it's just an idea to minimize the sidebar.
+        However, if you find it useful, you can use it. Anyways am pretty much
+        sure that, this is the exact sidebar the Boss required(ignore the design
+        as well), wowe reba the words and the structure!!!!
+      </h1>
+    </div>
+    <nav class="sidebar">
+      <div class="text">Side menu</div>
+      <ul>
+        <li><a href="#">Houses for sale</a></li>
+
+        <li>
+          <a href="#" class="feat-btn"
+            >house for rent
+            <i class="fas fa-caret-down first"></i>
+          </a>
+          <ul class="feat-show">
+            <li><a href="#">appartment for rent</a></li>
+
+            <li><a href="#">appartment for sale</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="serv-btn"
+            >offices for sale
+            <i class="fas fa-caret-down second"></i>
+          </a>
+          <ul class="serv-show">
+            <li><a href="#">offices for rent</a></li>
+
+            <li><a href="#">Lands for sale</a></li>
+          </ul>
+        </li>
+        <li><a href="#">plots for sale</a></li>
+        <li><a href="#">cars for sale</a></li>
+        <li><a href="#">cars for rent</a></li>
+        <li><a href="#">wedding cars</a></li>
+        <li><a href="#">wheels/rims</a></li>
+        <li><a href="#">spare sparts</a></li>
+        <li><a href="#">office furniture</a></li>
+        <li><a href="#">living room furniture</a></li>
+        <li><a href="#">kitchen furniture</a></li>
+        <li><a href="#">Bedroom furniture</a></li>
+        <li><a href="#">Dinning room Furniture</a></li>
+        <li><a href="#">office electronics</a></li>
+        <li><a href="#">laptops</a></li>
+        <li><a href="#">Home&kitchen electronics</a></li>
+        <li><a href="#">storage devices</a></li>
+        <li><a href="#">camera and photo</a></li>
+        <li><a href="#">headphones</a></li>
+        <li><a href="#">Phones accessories</a></li>
+        <li><a href="#">mobile phone parts</a></li>
+        <li><a href="#">Iphones</a></li>
+        <li><a href="#">Samsungs</a></li>
+        <li><a href="#">Tecno</a></li>
+        <li><a href="#">Infinix</a></li>
+        <li><a href="#">X-tigi</a></li>
+        <li><a href="#">Xiaomi</a></li>
+        <li><a href="#">OPPO</a></li>
+        <li><a href="#">Men's wear</a></li>
+        <li><a href="#">Women's wear</a></li>
+        <li><a href="#">Kids and babies</a></li>
+        <li><a href="#">bags and shoes</a></li>
+        <li><a href="#">Hair products</a></li>
+        <li><a href="#">Skin care products</a></li>
+        <li><a href="#">Fragrance</a></li>
+        <li><a href="#">lotion and soaps</a></li>
+        <li><a href="#">menicure&pedicure</a></li>
+      </ul>
+    </nav>
+
+    <script>
+      $(".feat-btn").click(function () {
+        $("nav ul .feat-show").toggleClass("show");
+      });
+      $(".serv-btn").click(function () {
+        $("nav ul .serv-show").toggleClass("show1");
+      });
+    </script>
+  </body>
+</html>
